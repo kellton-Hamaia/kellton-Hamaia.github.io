@@ -190,4 +190,9 @@
     aos_init();
   });
 
+  var rdn = Math.floor(Math.random() * 3)+1;
+  $("#hero").css("background", "url('assets/img/hero-bg"+rdn+".jpg') top center");
+
+
 })(jQuery);
+
